@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/style/style.css"/>
+</head>
+<body>
+    <div id="abertura">
+        <h2>Questionário Nórdico</h2> 
+        <p>Você está pronto para responder?</p> 
+        <button onclick="carregaQuiz()">Começar</button>
+    </div>
+    <div id="questionario">
+        <h2 id="pergunta">Pergunta</h2>
+        
+        <ul>
+            <li>
+                <input type="radio" name="alternativa" class="alternativa" id="a"> 
+                <label for="a" id="aTexto">Alternativa a</label>
+            </li>
+            <li>
+                <input type="radio" name="alternativa" class="alternativa" id="b">
+                <label for="b" id="bTexto">Alternativa b</label>
+            </li>
+            <li>
+                <input type="radio" name="alternativa" class="alternativa" id="c">
+                <label for="c" id="cTexto">Alternativa c</label>
+            </li>
+            <li>
+                <input type="radio" name="alternativa" class="alternativa" id="d">
+                <label for="d" id="dTexto">Alternativa d</label>
+            </li>
+        </ul>
+        
+        <button id="botao">Enviar</button>
+    </div>
+</body>
+
+<script src="/javascript/funcoes.js"></script>
+</html>
